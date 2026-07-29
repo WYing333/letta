@@ -103,3 +103,5 @@ class BaseAgentV2(ABC):
             openai_responses_websocket: If True, use WebSocket transport for OpenAI Responses API.
         """
         raise NotImplementedError
+
+# touch
