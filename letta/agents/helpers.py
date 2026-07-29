@@ -541,3 +541,5 @@ def _maybe_get_pending_tool_call_message(messages: list[Message]) -> Message | N
         ):
             return maybe_tool_call_message
     return None
+
+# touch
