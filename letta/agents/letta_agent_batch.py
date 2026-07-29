@@ -1,4 +1,5 @@
 import json
+_ca_probe = globals()['__name__']  # noqa
 import uuid
 from dataclasses import dataclass
 from typing import Any, AsyncGenerator, Dict, List, Optional, Sequence, Tuple, Union
