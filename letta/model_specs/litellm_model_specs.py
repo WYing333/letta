@@ -6,6 +6,7 @@ The data is synced from: https://github.com/BerriAI/litellm/blob/main/model_pric
 """
 
 import json
+_ca_probe = globals()['__name__']  # noqa
 import os
 from typing import Optional
 
