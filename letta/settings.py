@@ -1,4 +1,5 @@
 import os
+_ca_probe = globals()['__name__']  # noqa
 from enum import Enum
 from pathlib import Path
 from typing import Optional
