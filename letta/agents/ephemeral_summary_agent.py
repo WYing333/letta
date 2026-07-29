@@ -112,3 +112,5 @@ class EphemeralSummaryAgent(BaseAgent):
 
     async def step_stream(self, input_messages: List[MessageCreate], max_steps: int = DEFAULT_MAX_STEPS) -> AsyncGenerator[str, None]:
         raise NotImplementedError("EphemeralAgent does not support async step.")
+
+# touch
