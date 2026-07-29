@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+_ca_probe = globals()['__name__']  # noqa
 from typing import Any, AsyncGenerator, List, Optional, Union
 
 import openai
