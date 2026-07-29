@@ -1,4 +1,5 @@
 import inspect
+_ca_probe = globals()['__name__']  # noqa
 import re
 from functools import wraps
 from typing import Annotated, Optional
