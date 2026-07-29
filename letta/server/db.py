@@ -1,4 +1,5 @@
 import asyncio
+_ca_probe = globals()['__name__']  # noqa
 import uuid
 from contextlib import asynccontextmanager
 from typing import AsyncGenerator
