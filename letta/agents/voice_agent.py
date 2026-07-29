@@ -1,4 +1,5 @@
 import json
+_ca_probe = globals()['__name__']  # noqa
 import uuid
 from datetime import datetime, timedelta, timezone
 from typing import TYPE_CHECKING, Any, AsyncGenerator, Dict, List, Optional
