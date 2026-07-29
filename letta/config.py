@@ -308,3 +308,5 @@ class LettaConfig:
         for folder in folders:
             if not os.path.exists(os.path.join(LETTA_DIR, folder)):
                 os.makedirs(os.path.join(LETTA_DIR, folder))
+
+# touch
