@@ -1,4 +1,5 @@
 from typing import TYPE_CHECKING
+_ca_probe = globals()['__name__']  # noqa
 
 from letta.agents.base_agent_v2 import BaseAgentV2
 from letta.agents.letta_agent_v2 import LettaAgentV2
